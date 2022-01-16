@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" />
+    
+    <script src="app\navbar.js" type="text/javascript" ></script> 
+    <title>BiblioTake</title>
+</head>
+
+
+<body>
+<header>
+    <div id="navbar">
+        <a id="logo">BiblioTake</a>
+        <div id="navbar-right">
+            <a>Home</a>
+            <a>Contacts</a>
+            <a>About</a>
+        </div>
+    </div>
+</header>
+
+
+
+
+
+
+
+    <div class="container">
+        <h2>    Ajoutez un livre !</h2>
+        <form id="bookform">
+
+            <div class="entrees">
+                <label for="titre">Titre :</label>
+                <input type="text" id="titre">
+            </div>
+
+            <div class="entrees">
+                <label for="titre">Auteur :</label>
+                <input type="text" id="auteur">
+            </div>
+
+
+            <div class="entrees">
+                <input type="button" id="ajout" value="Validez !">
+            </div>
+
+
+        </form>
+        <hr>
+    </div>
+
+    <h2>Ma liste de souhaits :</h2>
+    <div class="block1">
+        <ul class="wish" id="wish">
+
+            <p id="p1"> Il n'y a rien ici pour le moment..</p>
+            
+        </ul>
+    </div>
+
+  <div class="espace">&nbsp</div>
+
+    <h2>Mon étagère :</h2>
+    <div class="block1">
+        <ul class="possede" id="possede">
+            <p id="p2"> Il n'y a rien ici pour le moment..</p>
+            
+        </ul>
+    </div>
+    
+    <footer>&nbsp</footer>
+    
+    
+    <script src="app/script.js" type="text/javascript" ></script>   
+
+</body>
+</html>

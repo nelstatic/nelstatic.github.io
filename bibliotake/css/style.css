@@ -1,0 +1,158 @@
+*{
+    box-sizing: border-box;
+}
+
+#navbar{
+  color : white;
+  background: rgb(221, 49, 49);
+  padding: 60px 10px;
+  position: fixed; /*fixe en haut la navbar*/
+  top: 0%;
+  width: 100%;
+  transition: 0.4s;
+  
+}
+
+#navbar a {
+    float: left; /*on les fait flotter à gauche*/
+    padding: 12px;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 10px;
+}
+
+#navbar #logo{
+    font-size: 35px;
+    font-weight: bold;
+}
+
+#navbar-right{
+    float: right;
+}
+
+.container{
+    padding: 20px;
+}
+
+
+
+
+
+/****************************************************************************************/
+
+
+
+
+
+body{
+    margin: 0%;
+    font-family: 'DM Sans', sans-serif;
+    margin-top: 180px;
+}
+
+h2{
+    text-align: center;
+}
+
+
+
+label{
+    display: block;
+    width: 100px;
+    text-align: center;
+    margin: auto;
+}
+
+input{
+    display: block;
+    width: 230px;
+    height: 30px;
+    margin: auto;
+}
+
+input:hover {
+    cursor: pointer;
+}
+
+
+.entrees{
+    margin: 40px;
+}
+
+
+#ajout{
+  color : white;
+  background: rgb(46, 45, 45);;
+  width: 200px;
+  padding: 20px 20px;
+  line-height: 0;
+  font-size: 18px;
+  border-radius: 20px;
+}
+
+
+.wish li {
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(241, 82, 82);
+    color: white;
+    display: block;
+
+}
+
+.possede li{
+    width: 100%;
+    min-height: 50px;
+    float: left;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 14px;
+    list-style: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+    background: rgb(46, 45, 45);
+    color: white;
+    display: block;
+
+}
+
+li i{
+    float: right;
+    margin:  10px;
+}
+
+li i:hover{
+    cursor:pointer;
+    animation-name: rotation;
+    animation-duration: 1s;
+}
+
+@keyframes rotation{
+    0%{transform: rotate(20deg)};
+    100%{transform: rotate(230deg)};
+}
+
+.espace{
+    padding-bottom: 30px;
+}
+
+p{
+    margin-left: 40%;
+}
+
+.pasvide{
+    display: none;
+}
+
+
+
+

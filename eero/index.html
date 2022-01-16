@@ -1,0 +1,309 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+
+<title>Order Confirmation</title>
+
+<style type="text/css">
+
+body {
+		margin: 0;
+		background-color: #edf1f2; 
+	}
+	table {
+		border-spacing: 0;
+	}
+	td {
+		padding: 0;
+	}
+	img {
+		border: 0;
+	}
+
+
+    .wrapper{
+        width: 100%;
+        table-layout: fixed; 
+    }
+
+    .main{
+        background-color: white;
+        margin: 0 auto; 
+        width: 100%;
+        max-width: 480px;
+        border-spacing: 0; 
+        font-family: 'Open Sans', sans-serif;
+        color: #171a1b;
+    }
+
+    /*************** ORDER DETAILS *****************/
+
+    .ligne{
+        border: 0;
+        border-top: 1px solid gray;
+        width: 80%;
+    }
+
+    .ticket{
+        width: 80%;
+        color: rgb(92, 92, 92);
+    }
+
+    .ticket td{
+        display: flex;
+        justify-content: space-between;
+    }
+
+    /***************  QUESTIONS  **********************/
+
+    p a{
+        color: #00baf2;
+        text-decoration: none;
+    }
+    p a:hover{
+        text-decoration: underline;
+    }
+
+    /***************  FOOTER  **********************/
+
+    .icones{
+        display: flex;
+    }
+
+    .icones a{
+        text-decoration: none;
+    }
+
+    .terms{
+        font-size: 11px;
+        text-align: center;
+        line-height: 18px;
+    }
+
+    .terms a{
+        text-decoration: none;
+        color: white;
+    }
+    .terms a:hover{
+        text-decoration: underline;
+    }
+   
+
+
+
+
+</style>
+
+</head>
+
+
+<body>
+    <center class="wrapper">
+        <table class="main" width="100%">
+
+            <!-- BANNER IMAGE -->
+
+            <tr>
+                <td align="center">
+                    <table class="banner">
+                        <img src="ressources/b1172d6d-ba5a-412b-9318-e82caeadce92.png" width="480px" alt="thanks for your order">
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- ORDER DETAILS -->
+
+            <tr>
+                <td align="center">
+                    <table>
+                        <img src="ressources/31542554-6e74-4513-b061-4622cd095763.png" width="130px" style="padding: 30px 0;" alt="order details">
+                    </table>
+                </td>
+            </tr>
+
+            <tr>
+                <td align="center">
+                    <table style="padding-bottom: 15px;">
+                        <p style="font-size: 30px; margin-bottom: -20px;">
+                            Order number:
+                        </p>
+                        <p style="font-size: 20px;">
+                            012345678912
+                        </p>
+                    </table>
+                    
+                    <hr class="ligne">  
+
+
+                    <table class="ticket">
+                        <tr>
+                            <td style="padding-top: 10px; padding-bottom: 45px;">
+                                <p style="width: 75%; font-size: 21px; font-weight: 600;">
+                                    eero 6 Home Wifi System 3-pack
+                                </p>
+                                <p style="font-size: 21px; font-weight: 600;">€ 260.00</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <hr class="ligne">
+
+                    <table class="ticket" style="padding: 15px 0;">
+                        <tr>
+                            <td style="font-size: 19px; margin-bottom: -16px;">
+                                <p style="width: 60%;">	Subtotal</p>
+                                <p>€  260.00</p>
+                            </td>
+
+                            <td style="font-size: 19px; margin-bottom: -16px;">
+                                <p style="width: 60%;">Tax </p>
+                                <p>€ 14.74</p>
+                            </td>
+
+                            <td style="font-size: 19px;">
+                                <p style="width: 60%;">	Shipping</p>
+                                <p>€ 12.00</p>
+                            </td>
+                        </tr>
+                    </table>
+
+                    <hr class="ligne">
+
+                    <table class="ticket">
+                        <tr>
+                            <td style="padding-top: 15px; padding-bottom: 40px;">
+                                <p style="width: 60%; font-size: 21px; font-weight: 600;">Total</p>
+                                <p style="font-size: 21px; font-weight: 600;">€ 286.74</p>
+                            </td>
+                        </tr>
+                    </table>
+
+
+                </td>
+            </tr>
+
+
+            <!-- SHIPPING DETAILS-->
+
+            <tr>
+                <td align="center">
+                    <table  style="width: 80%; background: #F7F7F7; color: #8d8d8d; padding: 45px 50px;">
+                        <tr>
+                            <td style=" font-size: 16px;">
+                                <p style="margin-bottom: -5px;">
+                                    We’re getting your order ready and we’ll email you with the tracking information as soon as it’s out the door. Here’s where it’s headed.
+                                </p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-size: 16px;">
+
+                                <p style="font-size: 22px; font-weight: 600; letter-spacing: 2; margin-bottom: -10px; color: #4e4e4e;">
+                                    Shipping address:
+                                </p>
+                                <!-- <h2 style="margin-bottom: -1px;">Shipping address:</h2> -->
+                                <p style="margin-bottom: -15px;">Jean Deaux</p>
+                                <p style="margin-bottom: -15px;">20 rue des Oliviers</p>
+                                <p style="margin-bottom: -15px;">Paris, 75001</p>
+                                <p>France</p>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="font-size: 16px; margin-top: -5px; padding-bottom: 10px;">
+                                <p>
+                                    If you included an eero 6 or eero Pro 6 product on this order, the entire order will ship on or after November 2, 2021.
+                                </p>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- QUESTIONS -->
+
+            <tr>
+                <td align="center" style="padding: 35px;">
+                    <table>
+                        <h2 style="font-size: 22px;">
+                            Questions about your order ?
+                        </h2>
+                        <p style="width: 60%;">
+                            Give us a call at <a href="tel:8776592347">(877) 659-2347</a> or
+                            email us at <a href="mailto:support@eero.com">support@eero.com</a>.
+                        </p>
+                    </table>
+                </td>
+            </tr>
+
+
+            <!-- FOOTER -->
+
+            <tr>
+                <td align="center" style="background: rgb(0, 25, 73);">
+                    <table style="width: 60%; color: white; padding: 45px;">
+                        <tr>
+                            <td class="icones">
+                                <a href="https://www.facebook.com/eero/"><img src="ressources/fb.png" width="10px" style="padding: 0 17px;" alt="icone facebook"></a>
+                                <a href="https://twitter.com/geteero"><img src="ressources/twt.png" width="28px" style="padding: 0 17px;" alt="icone twitter"></a>
+                                <a href="https://www.instagram.com/geteero/"><img src="ressources/ig.png" width="22px" style="padding: 0 17px;" alt="icone instagram"></a>
+                                <a href="https://www.linkedin.com/company/eero"><img src="ressources/link.png" width="22px" style="padding: 0 17px;" alt="icone linkedin"></a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align: center; padding: 30px;">
+                                <a href="https://eero.com/" style="text-decoration: none;">
+                                    <img src="ressources/eerocom.png" width="65px" alt="eero.com">
+                                </a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td class="terms">
+                                <a href="https://eero.com/legal/tos">
+                                    © 2021 EERO LLC SAN FRANCISCO, CA
+                                    TERMS/PRIVACY
+                                </a>
+                            </td>
+                        </tr>
+
+                    </table>
+                </td>
+            </tr>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </table>
+    </center>
+
+</body>
+
+
+</html>

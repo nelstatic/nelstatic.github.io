@@ -202,6 +202,16 @@ nav button{
 }
 
 @media (max-width: 440px){
+
+    .logo{
+        margin-top: 3.5px;
+        margin-right: 3px;
+    }
+
+    .sign{
+        margin-left: 0;
+    }
+
     nav button{
         font-size: 13px;
     }
